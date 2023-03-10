@@ -4,16 +4,17 @@ This repository contains a question answering module that utilizes AI to find an
 
 ## Dependencies
 
-1- Python-3.9 (Recommended)
+You require to install the following dependencies:
+- Python-3.9 (Recommended)
+- Torch
+- Pandas
+- sentence_transformers
+- openai
+- PyPDF2
+- nltk
 
-2- Torch
+## Inference
 
-3- Pandas
+To evaluate the question answering model on pre-defined questions. run:
 
-4- sentence_transformers
-
-5- openai
-
-6- PyPDF2
-
-7- nltk
+python sentence_transformer.py
